@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f5;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background-color: #176b50;
+  color: white;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 25px;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 15px;
+
+}
+
+nav a:hover {
+ color:#d9f27b
+}
+
+.hero {
+  min-height: 400px;
+  background-color: linear-gradient(
+    120deg,
+    #123d30,
+    #247957
+
+  );
+  color: white;
+  display: flex;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.hero p {
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 550px;
+  margin-bottom: 25px;
+  color:black;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #d9f27b;
+  color: #173b2d;
+  padding: 14px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.application{
+  max-width: fix-border;
+  margin: 50px auto;
+  padding: 35;
+  background: skyblue;
+  border-radius: 15px;
+ box-shadow:0 4px 15px rgba(0,0,0,0.08);
+
+}
+
+.application h2 {
+  color:#176b50;
+  margin-bottom:10px;
+
+}
+
+.application > p {
+color:#777;
+margin-bottom: 25px
+}
+
+form h3 {
+  color: #176b50;
+  margin: 30px 0 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+
+
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 13px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #176b50;
+
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.consent {
+  display: flex !important;
+  align-items:center;
+  gap:10px;
+}
+
+.consent input {
+  width:auto;
+
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: #176b50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  cursor:pointer;
+}
+
+button:hovor {
+  background: #104b38;
+}
+
+.about {
+  text-align: center;
+  padding: 50px 20px;
+  background: #e8f1eb;
+
+}
+
+.about h2 {
+  color: #176b50;
+  margin-bottom: 15px;
+
+}
+
+.about p {
+  line-height: 1.7;
+}
+
+footer{
+  background: #123d30;
+  color:white;
+  text-align: center;
+  padding: 22px;
+}
+
+@media(max-width: 600px){
+  header{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav a{
+    margin: 0 8px;
+    font-size: 13px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+  .application {
+    margin: 20px 12px;
+    padding: 20px;
+  }
+}
+
+

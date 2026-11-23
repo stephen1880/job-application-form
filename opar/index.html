@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opar.tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Welcome to Opar.tech</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#application">Apply Now</a>
+            <a href="#about">About</a>
+
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div>
+            <h1>find your place.<br>Build your future.</h1>
+            <p>Apply for exciting job opportunities. Share your skills, education and experience with opar.tech</p>
+            <a href="#application" class="btn">Apply Now</a>
+
+        </div>
+
+
+    </section>
+
+    <section class="application" id="application">
+        <h2>Application Form</h2>
+        <p>Fill in your details accurately.</p>
+       <form id="jobForm">
+
+        <h3>personal information</h3>
+       <lable>Full Name:</lable>
+         <input type="text" name="fullName" required><br>
+    
+          <lable>Email Address:</lable>
+          <input type="email" name="email" required><br>
+    
+          <lable>Phone Number:</lable>
+          <input type="tel" name="phone" required><br>
+
+          <lable>country:</lable>
+          <input type="text" name="country" required><br>
+
+          <lable>county/state:</lable>
+          <input type="text" name="county" required><br>
+
+          <lable>city:</lable>
+          <input type="text" name="city" required><br>
+
+          <h3>Job Information</h3>
+          <lebal>Position Applied For:</lebal>
+          <input type="text" name="job title" required><br>
+
+          <label>Employment type:</label>
+            <select name="employment type">
+                <option>Full Time</option>
+                <option>Part Time</option>
+                <option>Contract</option>
+                <option>Internship</option>
+                <option>Remote</option>
+
+            </select>
+
+            <h3>Education Information</h3>
+
+            <label>Highest Level of Education:</label>
+            <select name="education" required>
+                <option value="">select education level</option>
+                <option>Primary School</option>
+                <option>High School</option>
+                <option>College</option>
+                <option>Bachelor's Degree</option>
+                <option>Master's Degree</option>ss
+                <option>Doctorate</option>
+                <option>Other</option>
+            </select> 
+            
+            <label>Field of Study:</label>
+            <input type="text" name="field of study" required><br>
+
+            <h3>Work Experience</h3>
+
+            <label>Years of Experience:</label>
+            <select name="experience" required>
+                <option value="">select years of experience</option>
+                <option>No Experience</option>
+                <option>Entry Level</option>
+                <option>Some Experience</option>
+                <option>Senior Level</option>
+            </select>
+
+            <label>Years of working experience:</label>
+            <select name="Years" required>
+                <option value="">select years of experience</option>
+                <option>0-1 years</option>
+                <option>1-3 years</option>
+                <option>3-5 years</option>
+                <option>5+ years</option>
+            </select>
+            
+            <label>Skills:</label>
+            <textarea name="skills" placeholder="Enter your skills" required></textarea><br>
+
+            <h3>Upload Documents</h3>
+
+            <label>Resume/CV:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br>
+            <label class="consent">
+                <input type="checkbox" name="consent" required>
+                I conform that my information is correct.
+            </label>
+
+            <button type="submit">Submit Application</button>
+            <p id="message"></p>
+
+          
+       </form>
+
+    </section>
+    <section class="about" id="about">
+        <h2>About Opar.tech</h2>
+        <p>Opar.tech is a leading technology company dedicated to providing innovative solutions and services. We are committed to fostering a culture of excellence, collaboration, and continuous learning. Our team of experts works tirelessly to deliver cutting-edge products that meet the evolving needs of our clients.</p>
+        </section>  
+        
+
+        <footer>
+            <p>&copy; 2026 Opar.tech. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+
+            
+
+</body>
+</html>
